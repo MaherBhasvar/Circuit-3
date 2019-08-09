@@ -1,37 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="iOS 13.0 system colors" minToolsVersion="11.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="Circuit_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plane Detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VD-dZ-cqX">
+                                <rect key="frame" x="132" y="434.5" width="150" height="27"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="gde-4x-3Yw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FhM-Gg-inD">
+                                <rect key="frame" x="107" y="288" width="200" height="40"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bqS-lu-oF1"/>
+                                    <constraint firstAttribute="width" constant="200" id="gRs-hk-0Ui"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Tutorial">
+                                    <color key="titleColor" red="0.99217015500000005" green="0.99213296179999999" blue="0.99215811490000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickTutorialButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Sfs-N2-Wwt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Rs-RS-4az">
+                                <rect key="frame" x="107" y="428" width="200" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ewz-lZ-bth"/>
+                                    <constraint firstAttribute="width" constant="200" id="rdS-zv-t2l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.99217015500000005" green="0.99213296179999999" blue="0.99215811490000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickPlayButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="g3u-1P-l8W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUv-9R-Ryt">
+                                <rect key="frame" x="20" y="64" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="cSQ-rg-3h8"/>
+                                    <constraint firstAttribute="height" constant="30" id="rwr-5C-Esd"/>
+                                </constraints>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="0.99217015500000005" green="0.99213296179999999" blue="0.99215811490000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickHomeButton:" destination="BV1-FR-VrT" eventType="touchUpInside" id="r0U-et-Vp6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="jUv-9R-Ryt" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="20" id="8Yc-bE-SkY"/>
+                            <constraint firstItem="5Rs-RS-4az" firstAttribute="top" secondItem="FhM-Gg-inD" secondAttribute="bottom" constant="100" id="90T-N6-HnJ"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
+                            <constraint firstItem="3VD-dZ-cqX" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="Ojf-Zs-qJw"/>
+                            <constraint firstItem="jUv-9R-Ryt" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="20" id="UOq-LG-Sbd"/>
+                            <constraint firstItem="5Rs-RS-4az" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="UtX-XJ-Q4d"/>
+                            <constraint firstItem="3VD-dZ-cqX" firstAttribute="centerY" secondItem="U0K-SW-4ec" secondAttribute="centerY" id="VGj-fH-nIY"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
+                            <constraint firstItem="FhM-Gg-inD" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="djx-0P-NEF"/>
+                            <constraint firstItem="5Rs-RS-4az" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="hy4-ao-moc"/>
+                            <constraint firstItem="FhM-Gg-inD" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="mgG-hg-5H5"/>
+                            <constraint firstItem="5Rs-RS-4az" firstAttribute="centerY" secondItem="U0K-SW-4ec" secondAttribute="centerY" id="nrJ-r3-aiD"/>
+                            <constraint firstItem="5Rs-RS-4az" firstAttribute="centerX" secondItem="U0K-SW-4ec" secondAttribute="centerX" id="ocq-J7-CB3"/>
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
                     <connections>
+                        <outlet property="homeButton" destination="jUv-9R-Ryt" id="xR2-Nz-dGD"/>
+                        <outlet property="planeDetectedLabel" destination="3VD-dZ-cqX" id="f0v-Za-H4e"/>
+                        <outlet property="playButton" destination="5Rs-RS-4az" id="Fj2-Tp-6zS"/>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
+                        <outlet property="tutorialButton" destination="FhM-Gg-inD" id="i0m-fr-Xwz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="103" y="121"/>
         </scene>
     </scenes>
 </document>

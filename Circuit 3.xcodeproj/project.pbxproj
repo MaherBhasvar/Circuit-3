@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F5415C122D0D7B600321DED /* Bread Board .scn in Resources */ = {isa = PBXBuildFile; fileRef = 1F5415C022D0D7B600321DED /* Bread Board .scn */; };
+		1F5415C522D0D7F500321DED /* LCR Circuit.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1F5415C422D0D7F500321DED /* LCR Circuit.scn */; };
+		1F5415C922D0D90300321DED /* Resistor.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1F5415C822D0D90300321DED /* Resistor.scn */; };
+		1F83904422DF178E006A958D /* DetectingPlane_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F83904122DF178E006A958D /* DetectingPlane_1.mp3 */; };
+		1F83904522DF178E006A958D /* TapResistor_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F83904222DF178E006A958D /* TapResistor_1.mp3 */; };
+		1F83904622DF178E006A958D /* TapScreen_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F83904322DF178E006A958D /* TapScreen_1.mp3 */; };
+		1F83904922DF38CE006A958D /* iosMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F83904822DF38CE006A958D /* iosMath.m */; };
 		1FFEBADD22D0997F008A1C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEBADC22D0997F008A1C5D /* AppDelegate.swift */; };
 		1FFEBADF22D0997F008A1C5D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBADE22D0997F008A1C5D /* art.scnassets */; };
 		1FFEBAE122D0997F008A1C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEBAE022D0997F008A1C5D /* ViewController.swift */; };
 		1FFEBAE422D0997F008A1C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAE222D0997F008A1C5D /* Main.storyboard */; };
 		1FFEBAE622D09981008A1C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAE522D09981008A1C5D /* Assets.xcassets */; };
 		1FFEBAE922D09981008A1C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAE722D09981008A1C5D /* LaunchScreen.storyboard */; };
+		1FFEBAF422D099C1008A1C5D /* Bread Board .obj in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAF022D099C1008A1C5D /* Bread Board .obj */; };
+		1FFEBAF522D099C1008A1C5D /* Resistor.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAF122D099C1008A1C5D /* Resistor.obj */; };
+		1FFEBAF622D099C1008A1C5D /* 9v.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAF222D099C1008A1C5D /* 9v.obj */; };
+		1FFEBAF722D099C1008A1C5D /* wire.obj in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEBAF322D099C1008A1C5D /* wire.obj */; };
+		856C799D45B499B3A5C00C54 /* Pods_Circuit_3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19984959AAE49F9F0ABDA2A6 /* Pods_Circuit_3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19984959AAE49F9F0ABDA2A6 /* Pods_Circuit_3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Circuit_3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5415C022D0D7B600321DED /* Bread Board .scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Bread Board .scn"; sourceTree = "<group>"; };
+		1F5415C422D0D7F500321DED /* LCR Circuit.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "LCR Circuit.scn"; path = "../../../Downloads/LCR Circuit/LCR Circuit.scn"; sourceTree = "<group>"; };
+		1F5415C822D0D90300321DED /* Resistor.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Resistor.scn; path = "../../../Downloads/LCR Circuit/Resistor.scn"; sourceTree = "<group>"; };
+		1F83904122DF178E006A958D /* DetectingPlane_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DetectingPlane_1.mp3; path = ../../../Downloads/DetectingPlane_1.mp3; sourceTree = "<group>"; };
+		1F83904222DF178E006A958D /* TapResistor_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TapResistor_1.mp3; path = ../../../Downloads/TapResistor_1.mp3; sourceTree = "<group>"; };
+		1F83904322DF178E006A958D /* TapScreen_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TapScreen_1.mp3; path = ../../../Downloads/TapScreen_1.mp3; sourceTree = "<group>"; };
+		1F83904722DF38CD006A958D /* Circuit 3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circuit 3-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F83904822DF38CE006A958D /* iosMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosMath.m; sourceTree = "<group>"; };
 		1FFEBAD922D0997F008A1C5D /* Circuit 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circuit 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFEBADC22D0997F008A1C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FFEBADE22D0997F008A1C5D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +45,12 @@
 		1FFEBAE522D09981008A1C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FFEBAE822D09981008A1C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FFEBAEA22D09981008A1C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFEBAF022D099C1008A1C5D /* Bread Board .obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Bread Board .obj"; path = "../../../Downloads/LCR Circuit/Bread Board .obj"; sourceTree = "<group>"; };
+		1FFEBAF122D099C1008A1C5D /* Resistor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resistor.obj; path = "../../../Downloads/LCR Circuit/Resistor.obj"; sourceTree = "<group>"; };
+		1FFEBAF222D099C1008A1C5D /* 9v.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 9v.obj; path = "../../../Downloads/LCR Circuit/9v.obj"; sourceTree = "<group>"; };
+		1FFEBAF322D099C1008A1C5D /* wire.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wire.obj; path = "../../../Downloads/LCR Circuit/wire.obj"; sourceTree = "<group>"; };
+		960885940D2A6700ED693641 /* Pods-Circuit 3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circuit 3.debug.xcconfig"; path = "Target Support Files/Pods-Circuit 3/Pods-Circuit 3.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B61E519B1ABBF1D854F06E /* Pods-Circuit 3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Circuit 3.release.xcconfig"; path = "Target Support Files/Pods-Circuit 3/Pods-Circuit 3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856C799D45B499B3A5C00C54 /* Pods_Circuit_3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +70,8 @@
 			children = (
 				1FFEBADB22D0997F008A1C5D /* Circuit 3 */,
 				1FFEBADA22D0997F008A1C5D /* Products */,
+				991AE62715EB3FABE1C9DDC3 /* Pods */,
+				C9D0B1D7FF1DBD5813F1EA64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,44 @@
 			isa = PBXGroup;
 			children = (
 				1FFEBADC22D0997F008A1C5D /* AppDelegate.swift */,
+				1F83904122DF178E006A958D /* DetectingPlane_1.mp3 */,
+				1F83904222DF178E006A958D /* TapResistor_1.mp3 */,
+				1F83904322DF178E006A958D /* TapScreen_1.mp3 */,
 				1FFEBADE22D0997F008A1C5D /* art.scnassets */,
 				1FFEBAE022D0997F008A1C5D /* ViewController.swift */,
 				1FFEBAE222D0997F008A1C5D /* Main.storyboard */,
 				1FFEBAE522D09981008A1C5D /* Assets.xcassets */,
 				1FFEBAE722D09981008A1C5D /* LaunchScreen.storyboard */,
 				1FFEBAEA22D09981008A1C5D /* Info.plist */,
+				1FFEBAF222D099C1008A1C5D /* 9v.obj */,
+				1FFEBAF022D099C1008A1C5D /* Bread Board .obj */,
+				1F5415C422D0D7F500321DED /* LCR Circuit.scn */,
+				1F5415C022D0D7B600321DED /* Bread Board .scn */,
+				1FFEBAF122D099C1008A1C5D /* Resistor.obj */,
+				1F5415C822D0D90300321DED /* Resistor.scn */,
+				1FFEBAF322D099C1008A1C5D /* wire.obj */,
+				1F83904822DF38CE006A958D /* iosMath.m */,
+				1F83904722DF38CD006A958D /* Circuit 3-Bridging-Header.h */,
 			);
 			path = "Circuit 3";
+			sourceTree = "<group>";
+		};
+		991AE62715EB3FABE1C9DDC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				960885940D2A6700ED693641 /* Pods-Circuit 3.debug.xcconfig */,
+				B7B61E519B1ABBF1D854F06E /* Pods-Circuit 3.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9D0B1D7FF1DBD5813F1EA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19984959AAE49F9F0ABDA2A6 /* Pods_Circuit_3.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FFEBAED22D09981008A1C5D /* Build configuration list for PBXNativeTarget "Circuit 3" */;
 			buildPhases = (
+				AB1DC199B63F301F26356590 /* [CP] Check Pods Manifest.lock */,
 				1FFEBAD522D0997F008A1C5D /* Sources */,
 				1FFEBAD622D0997F008A1C5D /* Frameworks */,
 				1FFEBAD722D0997F008A1C5D /* Resources */,
+				2C24CD8E39937A13559D5F45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +161,7 @@
 				TargetAttributes = {
 					1FFEBAD822D0997F008A1C5D = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -125,14 +188,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFEBAF722D099C1008A1C5D /* wire.obj in Resources */,
+				1F83904422DF178E006A958D /* DetectingPlane_1.mp3 in Resources */,
+				1FFEBAF522D099C1008A1C5D /* Resistor.obj in Resources */,
 				1FFEBADF22D0997F008A1C5D /* art.scnassets in Resources */,
 				1FFEBAE922D09981008A1C5D /* LaunchScreen.storyboard in Resources */,
 				1FFEBAE622D09981008A1C5D /* Assets.xcassets in Resources */,
+				1F83904522DF178E006A958D /* TapResistor_1.mp3 in Resources */,
+				1F5415C922D0D90300321DED /* Resistor.scn in Resources */,
+				1F83904622DF178E006A958D /* TapScreen_1.mp3 in Resources */,
+				1F5415C122D0D7B600321DED /* Bread Board .scn in Resources */,
+				1FFEBAF622D099C1008A1C5D /* 9v.obj in Resources */,
 				1FFEBAE422D0997F008A1C5D /* Main.storyboard in Resources */,
+				1F5415C522D0D7F500321DED /* LCR Circuit.scn in Resources */,
+				1FFEBAF422D099C1008A1C5D /* Bread Board .obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C24CD8E39937A13559D5F45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circuit 3/Pods-Circuit 3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Circuit 3/Pods-Circuit 3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Circuit 3/Pods-Circuit 3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1DC199B63F301F26356590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Circuit 3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FFEBAD522D0997F008A1C5D /* Sources */ = {
@@ -141,6 +256,7 @@
 			files = (
 				1FFEBAE122D0997F008A1C5D /* ViewController.swift in Sources */,
 				1FFEBADD22D0997F008A1C5D /* AppDelegate.swift in Sources */,
+				1F83904922DF38CE006A958D /* iosMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +398,10 @@
 		};
 		1FFEBAEE22D09981008A1C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960885940D2A6700ED693641 /* Pods-Circuit 3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2SR5HHMNQ;
 				INFOPLIST_FILE = "Circuit 3/Info.plist";
@@ -293,6 +411,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SevenDots.Circuit-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Circuit 3/Circuit 3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +420,10 @@
 		};
 		1FFEBAEF22D09981008A1C5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B61E519B1ABBF1D854F06E /* Pods-Circuit 3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2SR5HHMNQ;
 				INFOPLIST_FILE = "Circuit 3/Info.plist";
@@ -311,6 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SevenDots.Circuit-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Circuit 3/Circuit 3-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
